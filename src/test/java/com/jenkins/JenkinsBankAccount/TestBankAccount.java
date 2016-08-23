@@ -24,6 +24,7 @@ public class TestBankAccount {
 		BankAccount bankAccount = new BankAccount(10.0);
 		double amount = bankAccount.debit(11.0);
 		Assert.assertTrue(amount==10.0);
+		System.out.println("Hello World");
 	}
 	
 	@Test
