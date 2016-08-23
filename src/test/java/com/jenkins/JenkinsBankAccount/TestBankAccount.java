@@ -23,8 +23,7 @@ public class TestBankAccount {
 	public void overDraftReturnsCurrentBalance(){
 		BankAccount bankAccount = new BankAccount(10.0);
 		double amount = bankAccount.debit(11.0);
-		Assert.assertTrue(amount==10.0);
-		System.out.println("Hello World");
+		Assert.assertTrue(amount==11.0);
 	}
 	
 	@Test
